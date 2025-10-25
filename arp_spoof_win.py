@@ -42,7 +42,7 @@ def spoof(target_ip, imposter_ip):
 
 
 def restore(destination_ip, source_ip):
-    # Restore the original ARP tab
+    # Restore the original ARP table
     dest_mac = find_mac_by_ip(destination_ip)
     src_mac = find_mac_by_ip(source_ip)
     if dest_mac is None or src_mac is None:
@@ -102,4 +102,5 @@ def execute_restore():
 # Call the main func
 execute_spoof()
 #execute_restore()
+
 
