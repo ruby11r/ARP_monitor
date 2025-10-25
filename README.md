@@ -1,6 +1,6 @@
 # ARP_monitor
 </br>
-ARP table monitoring programs
+ARP table manipulation and monitoring a malicious activity
 
 ### NOTE
 This repo contains experimental code developed soly for research and learning purpose.
